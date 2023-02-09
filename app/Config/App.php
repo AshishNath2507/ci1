@@ -22,7 +22,7 @@ class App extends BaseConfig
      * explicitly and never rely on auto-guessing, especially in production
      * environments.
      */
-    public string $baseURL = 'http://localhost:8080/';
+    public string $baseURL = 'http://localhost/ci1/';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
@@ -62,9 +62,9 @@ class App extends BaseConfig
      * 'QUERY_STRING'   Uses $_SERVER['QUERY_STRING']
      * 'PATH_INFO'      Uses $_SERVER['PATH_INFO']
      *
-     * WARNING: If you set this to 'PATH_INFO', URIs will always be URL-decoded!
+     * WARNING: If you set this to 'REQUEST_URI', URIs will always be URL-decoded!
      */
-    public string $uriProtocol = 'REQUEST_URI';
+    public string $uriProtocol = 'PATH_INFO';
 
     /**
      * --------------------------------------------------------------------------
