@@ -73,7 +73,7 @@
             <div class="w3-right w3-hide-small">
                 <a href="#about" class="w3-bar-item w3-button">About</a>
                 <a href="#menu" class="w3-bar-item w3-button">Menu</a>
-                <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+                <a href="<?= base_url()?>/contact" class="w3-bar-item w3-button">Contact</a>
             </div>
         </div>
     </div>

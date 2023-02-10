@@ -23,7 +23,7 @@
         <?= $validation->listErrors(); ?>
     <?php endif; ?>
 
-    <?= form_open('#'); ?>
+    <?= form_open(); ?>
 
     <label>Name:</label>
     <input type="text" name="name" autocomplete="off" >
@@ -81,7 +81,7 @@
 
     <hr>
 
-    <?= $this->include("partials/contact") ?>
+    <?= $this->include("contact") ?>
 
     <!-- End page content -->
 </div>

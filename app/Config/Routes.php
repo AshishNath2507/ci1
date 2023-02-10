@@ -32,6 +32,9 @@ $routes->setAutoRoute(true); //This was false earlier
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('asdf', 'Welcome::index');
+$routes->get('/login', 'Login::index');
+
+// $routes->post('contact', 'Contact::index');
 
 /*
  * --------------------------------------------------------------------
